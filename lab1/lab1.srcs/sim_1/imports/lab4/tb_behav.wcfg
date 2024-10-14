@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="310.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="359.984 ns"></ZoomEndTime>
+      <Cursor1Time time="435.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="305"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="102" />
+   <wvobject fp_name="/tb/soc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_sram_en" type="logic">
+      <obj_property name="ElementShortName">inst_sram_en</obj_property>
+      <obj_property name="ObjectShortName">inst_sram_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_pc/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_pc/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_sram_addr" type="array">
+      <obj_property name="ElementShortName">inst_sram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_sram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_sram_rdata" type="array">
+      <obj_property name="ElementShortName">inst_sram_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_sram_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_if_id/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_decoder_inst" type="array">
+      <obj_property name="ElementShortName">inst_decoder_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_decoder_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_for_ex" type="array">
+      <obj_property name="ElementShortName">inst_for_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_for_cu" type="array">
+      <obj_property name="ElementShortName">inst_for_cu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_cu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_for_mem" type="array">
+      <obj_property name="ElementShortName">inst_for_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_for_access" type="array">
+      <obj_property name="ElementShortName">inst_for_access[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_access[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_for_wb" type="array">
+      <obj_property name="ElementShortName">inst_for_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_inst" type="array">
+      <obj_property name="ElementShortName">pc_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_for_ex" type="array">
+      <obj_property name="ElementShortName">pc_for_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_for_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_for_cu" type="array">
+      <obj_property name="ElementShortName">pc_for_cu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_for_cu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_for_mem" type="array">
+      <obj_property name="ElementShortName">pc_for_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_for_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_for_access" type="array">
+      <obj_property name="ElementShortName">pc_for_access[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_for_access[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_for_wb" type="array">
+      <obj_property name="ElementShortName">pc_for_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_for_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_nop" type="logic">
+      <obj_property name="ElementShortName">is_nop</obj_property>
+      <obj_property name="ObjectShortName">is_nop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_for_decoder" type="array">
+      <obj_property name="ElementShortName">inst_for_decoder[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_decoder[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_for_decoder" type="array">
+      <obj_property name="ElementShortName">pc_for_decoder[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_for_decoder[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/isI" type="logic">
+      <obj_property name="ElementShortName">isI</obj_property>
+      <obj_property name="ObjectShortName">isI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_inst_decode/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_inst_decode/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_inst_decode/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/alu_en" type="logic">
+      <obj_property name="ElementShortName">alu_en</obj_property>
+      <obj_property name="ObjectShortName">alu_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/alu_card" type="array">
+      <obj_property name="ElementShortName">alu_card[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_card[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/isR" type="logic">
+      <obj_property name="ElementShortName">isR</obj_property>
+      <obj_property name="ObjectShortName">isR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/raddr1" type="array">
+      <obj_property name="ElementShortName">raddr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/raddr2" type="array">
+      <obj_property name="ElementShortName">raddr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/rdata1" type="array">
+      <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/rdata2" type="array">
+      <obj_property name="ElementShortName">rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/waddr" type="array">
+      <obj_property name="ElementShortName">waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/mem_rd" type="logic">
+      <obj_property name="ElementShortName">mem_rd</obj_property>
+      <obj_property name="ObjectShortName">mem_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/sa" type="array">
+      <obj_property name="ElementShortName">sa[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/jmp" type="logic">
+      <obj_property name="ElementShortName">jmp</obj_property>
+      <obj_property name="ObjectShortName">jmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_inst_decode/cal" type="array">
+      <obj_property name="ElementShortName">cal[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cal[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_inst_decode/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/offset" type="array">
+      <obj_property name="ElementShortName">offset[15:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_stop_pipeline" type="logic">
+      <obj_property name="ElementShortName">is_stop_pipeline</obj_property>
+      <obj_property name="ObjectShortName">is_stop_pipeline</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_inst_decode/inst_for_ex_waddr" type="array">
+      <obj_property name="ElementShortName">inst_for_ex_waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_for_ex_waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_with_ex1" type="logic">
+      <obj_property name="ElementShortName">is_confict_with_ex1</obj_property>
+      <obj_property name="ObjectShortName">is_confict_with_ex1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_with_ex2" type="logic">
+      <obj_property name="ElementShortName">is_confict_with_ex2</obj_property>
+      <obj_property name="ObjectShortName">is_confict_with_ex2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_with_mem1" type="logic">
+      <obj_property name="ElementShortName">is_confict_with_mem1</obj_property>
+      <obj_property name="ObjectShortName">is_confict_with_mem1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_with_mem2" type="logic">
+      <obj_property name="ElementShortName">is_confict_with_mem2</obj_property>
+      <obj_property name="ObjectShortName">is_confict_with_mem2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_with_wb1" type="logic">
+      <obj_property name="ElementShortName">is_confict_with_wb1</obj_property>
+      <obj_property name="ObjectShortName">is_confict_with_wb1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_with_wb2" type="logic">
+      <obj_property name="ElementShortName">is_confict_with_wb2</obj_property>
+      <obj_property name="ObjectShortName">is_confict_with_wb2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_between_lw_lw" type="logic">
+      <obj_property name="ElementShortName">is_confict_between_lw_lw</obj_property>
+      <obj_property name="ObjectShortName">is_confict_between_lw_lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/select_for_writereg" type="logic">
+      <obj_property name="ElementShortName">select_for_writereg</obj_property>
+      <obj_property name="ObjectShortName">select_for_writereg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/inst_decoder_inst" type="array">
+      <obj_property name="ElementShortName">inst_decoder_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_decoder_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/pc_inst" type="array">
+      <obj_property name="ElementShortName">pc_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wen_for_ex" type="logic">
+      <obj_property name="ElementShortName">wen_for_ex</obj_property>
+      <obj_property name="ObjectShortName">wen_for_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_id_ex/sa_for_ex" type="array">
+      <obj_property name="ElementShortName">sa_for_ex[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sa_for_ex[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/isI_for_ex" type="logic">
+      <obj_property name="ElementShortName">isI_for_ex</obj_property>
+      <obj_property name="ObjectShortName">isI_for_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/waddr_for_ex" type="array">
+      <obj_property name="ElementShortName">waddr_for_ex[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_for_ex[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/rdata1_for_ex" type="array">
+      <obj_property name="ElementShortName">rdata1_for_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1_for_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/rdata2_for_ex" type="array">
+      <obj_property name="ElementShortName">rdata2_for_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2_for_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/offset_for_ex" type="array">
+      <obj_property name="ElementShortName">offset_for_ex[15:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_for_ex[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_between_lw_lw_for_ex" type="logic">
+      <obj_property name="ElementShortName">is_confict_between_lw_lw_for_ex</obj_property>
+      <obj_property name="ObjectShortName">is_confict_between_lw_lw_for_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/alu_card_for_ex" type="array">
+      <obj_property name="ElementShortName">alu_card_for_ex[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_card_for_ex[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/alu_en_for_ex" type="logic">
+      <obj_property name="ElementShortName">alu_en_for_ex</obj_property>
+      <obj_property name="ObjectShortName">alu_en_for_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/select_for_writereg_for_ex" type="logic">
+      <obj_property name="ElementShortName">select_for_writereg_for_ex</obj_property>
+      <obj_property name="ObjectShortName">select_for_writereg_for_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/mem_rd_for_ex" type="logic">
+      <obj_property name="ElementShortName">mem_rd_for_ex</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_for_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_cu/rdata1_true" type="array">
+      <obj_property name="ElementShortName">rdata1_true[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1_true[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_cu/rdata2_true" type="array">
+      <obj_property name="ElementShortName">rdata2_true[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2_true[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wen_for_cu" type="logic">
+      <obj_property name="ElementShortName">wen_for_cu</obj_property>
+      <obj_property name="ObjectShortName">wen_for_cu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/rdata1_for_cu" type="array">
+      <obj_property name="ElementShortName">rdata1_for_cu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1_for_cu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/offset_for_cu" type="array">
+      <obj_property name="ElementShortName">offset_for_cu[15:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_for_cu[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/mem_wr_for_cu" type="logic">
+      <obj_property name="ElementShortName">mem_wr_for_cu</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_for_cu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/is_confict_between_lw_lw_for_cu" type="logic">
+      <obj_property name="ElementShortName">is_confict_between_lw_lw_for_cu</obj_property>
+      <obj_property name="ObjectShortName">is_confict_between_lw_lw_for_cu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/waddr_for_cu" type="array">
+      <obj_property name="ElementShortName">waddr_for_cu[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_for_cu[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/select_for_writereg_for_cu" type="logic">
+      <obj_property name="ElementShortName">select_for_writereg_for_cu</obj_property>
+      <obj_property name="ObjectShortName">select_for_writereg_for_cu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/my_ex_mem/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wdata_for_mem" type="array">
+      <obj_property name="ElementShortName">wdata_for_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_for_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/mem_rd_mem" type="logic">
+      <obj_property name="ElementShortName">mem_rd_mem</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/waddr_for_mem" type="array">
+      <obj_property name="ElementShortName">waddr_for_mem[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_for_mem[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wen_for_mem" type="logic">
+      <obj_property name="ElementShortName">wen_for_mem</obj_property>
+      <obj_property name="ObjectShortName">wen_for_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/rdata1_for_mem" type="array">
+      <obj_property name="ElementShortName">rdata1_for_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1_for_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/offset_for_mem" type="array">
+      <obj_property name="ElementShortName">offset_for_mem[15:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_for_mem[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/select_for_writereg_for_mem" type="logic">
+      <obj_property name="ElementShortName">select_for_writereg_for_mem</obj_property>
+      <obj_property name="ObjectShortName">select_for_writereg_for_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/data_sram_en" type="logic">
+      <obj_property name="ElementShortName">data_sram_en</obj_property>
+      <obj_property name="ObjectShortName">data_sram_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/data_sram_wen" type="array">
+      <obj_property name="ElementShortName">data_sram_wen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_sram_wen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/data_sram_addr" type="array">
+      <obj_property name="ElementShortName">data_sram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_sram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/data_sram_wdata" type="array">
+      <obj_property name="ElementShortName">data_sram_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_sram_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/data_sram_rdata" type="array">
+      <obj_property name="ElementShortName">data_sram_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_sram_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/select_for_writereg_for_access" type="logic">
+      <obj_property name="ElementShortName">select_for_writereg_for_access</obj_property>
+      <obj_property name="ObjectShortName">select_for_writereg_for_access</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/waddr_for_access" type="array">
+      <obj_property name="ElementShortName">waddr_for_access[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_for_access[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wen_for_access" type="logic">
+      <obj_property name="ElementShortName">wen_for_access</obj_property>
+      <obj_property name="ObjectShortName">wen_for_access</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wdata_for_access" type="array">
+      <obj_property name="ElementShortName">wdata_for_access[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_for_access[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wdata_for_wb" type="array">
+      <obj_property name="ElementShortName">wdata_for_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_for_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/select_for_writereg_for_wb" type="logic">
+      <obj_property name="ElementShortName">select_for_writereg_for_wb</obj_property>
+      <obj_property name="ObjectShortName">select_for_writereg_for_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/wen_for_wb" type="logic">
+      <obj_property name="ElementShortName">wen_for_wb</obj_property>
+      <obj_property name="ObjectShortName">wen_for_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/waddr_for_wb" type="array">
+      <obj_property name="ElementShortName">waddr_for_wb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_for_wb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/reg_debug_wb_rf_wen" type="logic">
+      <obj_property name="ElementShortName">reg_debug_wb_rf_wen</obj_property>
+      <obj_property name="ObjectShortName">reg_debug_wb_rf_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/debug_wb_pc" type="array">
+      <obj_property name="ElementShortName">debug_wb_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/debug_wb_rf_wen" type="logic">
+      <obj_property name="ElementShortName">debug_wb_rf_wen</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/debug_wb_rf_wnum" type="array">
+      <obj_property name="ElementShortName">debug_wb_rf_wnum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wnum[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/soc/your_cpu/debug_wb_rf_wdata" type="array">
+      <obj_property name="ElementShortName">debug_wb_rf_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wdata[31:0]</obj_property>
+   </wvobject>
+</wave_config>
